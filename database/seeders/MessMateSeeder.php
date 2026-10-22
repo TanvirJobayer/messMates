@@ -26,7 +26,6 @@ class MessMateSeeder extends Seeder
             'email' => 'rifat@gmail.com',
             'phone' => '0177346784',
             'district' => 'Sherpur',
-            'status' => '',
             'age' => 28,
         ]);
         messMate::create([

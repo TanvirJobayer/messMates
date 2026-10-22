@@ -9,7 +9,7 @@ route::get('/messMates/create', [MessMateController::class, 'create']);
 
 route::post('/messMates', [MessMateController::class, 'store']);
 
-route::get('/messMates/{id}', [MessMateController::class, 'show ']);
+route::get('/messMates/{id}', [MessMateController::class, 'show']);
 
 route::get('/messMates/{id}/edit', [MessMateController::class, 'edit']);
 
